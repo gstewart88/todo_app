@@ -1,0 +1,11 @@
+<form method='post' action='/delete'>
+<dl>
+  <dt><label>Item:</label></dt>
+  <dd><input id='item' name=<%= @item['item'] %> type='text' autofocus></dd>
+</dl>
+<dl>
+  <dt><label for='details'>Details:</label></dt>
+  <dd><textarea id='details' name=<%= @item['item'] %>></textarea></dd>
+</dl>
+<button>Edit</button>
+</form>
